@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+100.times do |variable|
+  Student.create(name: "whatever", age: rand(13..18), grade: rand(9..12))
+end

@@ -1,0 +1,7 @@
+<h1> Here are the students </h1>
+<ul>
+  <% @students.each do |student| %>
+    <li> <%= student.name %>, Age: <%= student.age %>., Grade: <%= student.grade %>.
+    </li>
+   <% end %>
+</ul>
